@@ -1,0 +1,63 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    
+}
+
+.child{
+    height: 200px;
+   
+}
+
+img{
+    height: 200px;
+    width: 400px;
+    object-fit: fill;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+
+.son{
+    height: 500px;
+    width: 400px;
+    border: 1px solid black;
+    box-shadow:0 10px 10px rgba(0, 0, 0, 0.315);
+}
+
+.one{
+    background-image: url(./images/blackmanoff.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.two{
+    text-align: center;
+    
+
+}
+
+.son-two-h1{
+    margin-top: 30%;
+
+}
+
+.son-two-p{
+    color: red;
+}
+
+
+.son-two-p2{
+
+    color: blue;
+    text-align: left;
+    margin-top: 52%;
+}

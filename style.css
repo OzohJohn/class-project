@@ -1,0 +1,28 @@
+body{
+    background-image: url(./images/63jVvJAIfpI.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+h1{
+    font-size: 40px;
+    color: red;
+}
+
+p{
+    font-size: 20px;
+
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.one{
+    padding: 40px;
+    margin: 50px;
+}
+
