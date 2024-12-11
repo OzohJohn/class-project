@@ -61,3 +61,23 @@ img{
     text-align: left;
     margin-top: 52%;
 }
+
+
+@media only screen and (max-width: 600px){
+    .parent{
+        flex-direction: column;
+    }
+
+    .son{
+        height: 300px;
+        width: 300px;
+    }
+
+    .son-two-p{
+        font-size: 12px;
+    }
+
+    .son-two-h1{
+        font-size: 25px;
+    }
+}
